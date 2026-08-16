@@ -1,0 +1,13 @@
+interface:
+  display_name: AI 漫剧公众号写作
+  short_description: 查资料、拆产品并写成有判断的 AI 漫剧公众号文章
+  default_prompt: 使用 $write-ai-comic-articles 研究一个 AI 漫剧选题，并从 AI 产品经理视角写成公众号文章。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
